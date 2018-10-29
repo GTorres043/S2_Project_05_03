@@ -15,6 +15,8 @@
 
 
 /* Article Styles */
+
+/* will make article move and stay left on the webpage and make it a width of 384 pixels */
 article {
     float: left;
     width: 384px;
@@ -24,6 +26,8 @@ article {
 
 
 /* First Line and Drop Cap Styles */
+
+/* this will change the font of the first line and first letter of the article paragraph and make the first letter bigger with a serif font. the first line will be changed to small caps and the size will be enlarged  */
 article>p:first-of-type::first-line {
     font-size: 1.35em;
     font-variant: small-caps;
@@ -45,14 +49,17 @@ article>p:first-of-type::first-letter {
 
 
 /* Aside Styles */
+
+/* this will display any content in the display element to float left and a width of 768 pixels*/
 aside {
-    width: 768;
+    width: 768px;
     float: left;
 }
 
 
 
 /* Map Styles */
+/* will change the size of the map image and place it horizontally on the page  */
 div#battleMap {
     width: 688px;
     margin-top: 20px;
@@ -67,6 +74,7 @@ img#mapImage {
 }
 
 /* Interactive Map Styles */
+/* these will make the markers move to a certain spot on the map using coordinates */
 a.battleMarkers {
     position: absolute;
 }
@@ -102,6 +110,8 @@ a#marker6 {
 }
 
 /* Map Information Styles */
+
+/* will make them clickable when hovered on ,they will expose the information hidden */
 div.mapInfo {
     display: none;
 }
